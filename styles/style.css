@@ -552,6 +552,20 @@ img {vertical-align: middle;}
   background-position: top left;
 }
 
+@media (max-width: 768px) {
+  .homepage_container {
+    flex-direction: column;
+  }
+
+  .homepage_right {
+    display: none;
+  }
+
+  .homepage_left {
+    width: 100%;
+    text-align: center;
+  }
+}
 /* @media (max-width: 900px) {
 .banner {
   width: 100%;
@@ -2302,3 +2316,4 @@ img {vertical-align: middle;}
 		td:nth-of-type(7):before { content: "Advisors"; }
 		td:nth-of-type(8):before { content: "Project Page"; }
 	}
+
