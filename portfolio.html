@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adrien Hoff | Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <!--- Navigation Bar --->
+<body>
+  <nav>
+    <div class="navbar" id="mynavbar">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT ME</a>
+      <!-- <a href="resume.html">RESUME</a> -->
+      <a href="portfolio.html" class="active">PORTFOLIO</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+  <!--- Section 1: Title --->
+  <div class="about_me_title">
+    <div class="about_me_text">
+      <h1>PORTFOLIO</h1>
+    </div>
+  </div>
+<!-- Portfolio Gallery Grid -->
+<div style="background-color: var(--alternative)">
+  <div style="max-width: 1800px; margin: 0 auto !important; float: none !important;">
+  <!--- Section 2a: GIS Portfolio control buttons --->
+  <div class="portfolio_cont">
+  <div id="myBtnContainer">
+    <button class="portbtn portactive" onclick="filterSelection('all')"> Show all</button>
+    <button class="portbtn" onclick="filterSelection('GIS')"> GIS</button>
+    <button class="portbtn" onclick="filterSelection('customcode')"> Custom Code</button>
+    <button class="portbtn" onclick="filterSelection('webmaps')"> Web Mapping</button>
+  </div>
+<div class="portrow">
+  <div class="portcolumn customcode webmaps">
+    <div class="portcontent">
+      <a href="projects/Mapping-Incident-and-AVL-Data-with-ArcGIS-Python-API.html" target="" class="port_txt">
+        <img src="images/calls.jpg" alt="Mapping Incident and AVL Data with ArcGIS Python API" style="width:100%">
+        <h3 style="font-family: 'Montserrat', sans-serif;">Mapping Incident and AVL Data with ArcGIS Python API</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn customcode webmaps">
+    <div class="portcontent">
+      <a href="projects/Experience_builder.html" target="" class="port_txt">
+        <img src="images/fireguard2.jpg" alt="Custom Experience Builder Widgets using ArcGIS Javascript API" style="width:100%">
+        <h3 style="font-family: 'Montserrat', sans-serif;">Custom Experience Builder Widgets using ArcGIS Javascript API</h3>
+        <!-- <h4>Image Credit: NASA DEVELOP</h4> -->
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS customcode">
+    <div class="portcontent">
+      <a href="projects/Vexcel.html" target="" class="port_txt">
+        <img src="images/park.jpg" class alt="Creating CAD imagery basemap using Vexcel Imagery" style="width:100%">
+        <h3 style="font-family: 'Montserrat', sans-serif;">Creating CAD imagery basemap using Vexcel Imagery</h3>
+        <!-- <h4>Image Credit: NASA DEVELOP</h4> -->
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS customcode webmaps">
+    <div class="portcontent">
+      <a href="projects/custom_route.html" target="" class="port_txt">
+      <img src="images/route2.jpg" alt="Custom Route Tool" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Custom Routing Solution using Open Routing Service API</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS customcode webmaps">
+    <div class="portcontent">
+      <a href="projects/whole-blood.html" target="" class="port_txt">
+      <img src="images/blood.jpg" alt="Whole Blood Real-Time Tracking" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Whole Blood Real-Time Tracking in ArcGIS Online</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn webmaps">
+    <div class="portcontent">
+      <a href="projects/Evergreen_Dashboard.html" target="" class="port_txt">
+      <img src="images/dashmap.jpg" alt="Evergreen Mitigation Field Maps and Dashboard" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Evergreen Mitigation Field Maps and Dashboard</h3>
+      </a>
+    </div>
+  </div>
+    <div class="portcolumn GIS">
+    <div class="portcontent">
+      <a href="projects/Evergreen_Response_Time.html" target="" class="port_txt">
+      <img src="images/EFRpopzone.jpg" alt="Understanding Delays and Improving Emergency Response with GIS - Evergreen Fire Department in Evergreen, Colorado" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Understanding Delays and Improving Emergency Response with GIS - Evergreen Fire Department in Evergreen, Colorado</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS">
+    <div class="portcontent">
+      <a href="projects/Evergreen_Ops.html" target="" class="port_txt">
+      <img src="images/evergreen_planning.jpg" alt="Evergreen Fire Ops Maps" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Evergreen Fire Operational Maps</h3>
+      </a>
+    </div>
+
+ 
+<!-- END GRID -->
+</div>
+</div>
+</div>
+  <!--- Section 3: Contact Information --->
+  <div class="about_me_interests_cont_pg2">
+    <div class="about_me_interests_pg2">
+      <br>
+      <h2 style="font-family: 'Montserrat', sans-serif;">Contact</h2>
+      <br>
+      <p>Please feel free to contact me at my email address or through my LinkedIn Account below.</p>
+      <br>
+    </div>
+  </div>
+  <!--- Footer --->
+  <div class="top_footer">
+    <p style="font-size: 24px; font-family: 'Montserrat', sans-serif;">Contact Me</p>
+    <a href="https://www.linkedin.com/in/adrien-hoff-m-s-30559056/"><i class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/adrienhoff"><i class="fa fa-github"></i></a>
+  </div>
+  <div class="bottom_footer">
+    <p><small>&copy; Copyright 2026, Caroline Williams</small></p>
+  </div>
+  <script src="scripts/filter.js"></script>
+  <script src="scripts/icon.js"></script>
+  </body>
+</html>
